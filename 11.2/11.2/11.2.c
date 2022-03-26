@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <windows.h>
 
-int compare_integers(void const *a, void const *b)
+int compare_integers(void const *a, void const *b)	//qsort函数的最后一个参数
 {
 	register int const *pa = a;
 	register int const *pb = b;
